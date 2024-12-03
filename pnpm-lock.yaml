@@ -118,7 +118,7 @@ dependencies:
     version: 2.2.5(react@19.0.0-rc-7771d3a7-20240827)
   tailwind-merge:
     specifier: ^2.5.2
-    version: 2.5.2
+    version: 2.5.5
   tailwindcss-animate:
     specifier: ^1.0.7
     version: 1.0.7(tailwindcss@3.4.7)
@@ -6182,8 +6182,8 @@ packages:
       vue: 3.5.13(typescript@5.5.4)
     dev: false
 
-  /tailwind-merge@2.5.2:
-    resolution: {integrity: sha512-kjEBm+pvD+6eAwzJL2Bi+02/9LFLal1Gs61+QB7HvTfQQ0aXwC5LGT8PEt1gS0CWKktKe6ysPTAy3cBC5MeiIg==}
+  /tailwind-merge@2.5.5:
+    resolution: {integrity: sha512-0LXunzzAZzo0tEPxV3I297ffKZPlKDrjj7NXphC8V5ak9yHC5zRmxnOe2m/Rd/7ivsOMJe3JZ2JVocoDdQTRBA==}
     dev: false
 
   /tailwindcss-animate@1.0.7(tailwindcss@3.4.7):
