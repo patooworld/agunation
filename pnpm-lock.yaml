@@ -43,7 +43,7 @@ dependencies:
     version: 0.10.0
   ai:
     specifier: 3.4.33
-    version: 3.4.33(react@19.0.0-rc-7771d3a7-20240827)(svelte@5.3.0)(vue@3.5.13)(zod@3.23.8)
+    version: 3.4.33(react@19.0.0-rc-7771d3a7-20240827)(svelte@5.5.2)(vue@3.5.13)(zod@3.23.8)
   bcrypt-ts:
     specifier: ^5.0.2
     version: 5.0.3
@@ -64,7 +64,7 @@ dependencies:
     version: 16.4.5
   drizzle-orm:
     specifier: ^0.34.0
-    version: 0.34.0(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.4)(react@19.0.0-rc-7771d3a7-20240827)
+    version: 0.34.0(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.5)(react@19.0.0-rc-7771d3a7-20240827)
   eslint-config-prettier:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.57.0)
@@ -94,7 +94,7 @@ dependencies:
     version: 0.3.0(react-dom@19.0.0-rc-7771d3a7-20240827)(react@19.0.0-rc-7771d3a7-20240827)
   postgres:
     specifier: ^3.4.4
-    version: 3.4.4
+    version: 3.4.5
   react:
     specifier: 19.0.0-rc-7771d3a7-20240827
     version: 19.0.0-rc-7771d3a7-20240827
@@ -268,7 +268,7 @@ packages:
       - zod
     dev: false
 
-  /@ai-sdk/svelte@0.0.57(svelte@5.3.0)(zod@3.23.8):
+  /@ai-sdk/svelte@0.0.57(svelte@5.5.2)(zod@3.23.8):
     resolution: {integrity: sha512-SyF9ItIR9ALP9yDNAD+2/5Vl1IT6kchgyDH8xkmhysfJI6WrvJbtO1wdQ0nylvPLcsPoYu+cAlz1krU4lFHcYw==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -279,8 +279,8 @@ packages:
     dependencies:
       '@ai-sdk/provider-utils': 1.0.22(zod@3.23.8)
       '@ai-sdk/ui-utils': 0.0.50(zod@3.23.8)
-      sswr: 2.1.0(svelte@5.3.0)
-      svelte: 5.3.0
+      sswr: 2.1.0(svelte@5.5.2)
+      svelte: 5.5.2
     transitivePeerDependencies:
       - zod
     dev: false
@@ -2454,7 +2454,7 @@ packages:
     hasBin: true
     dev: false
 
-  /ai@3.4.33(react@19.0.0-rc-7771d3a7-20240827)(svelte@5.3.0)(vue@3.5.13)(zod@3.23.8):
+  /ai@3.4.33(react@19.0.0-rc-7771d3a7-20240827)(svelte@5.5.2)(vue@3.5.13)(zod@3.23.8):
     resolution: {integrity: sha512-plBlrVZKwPoRTmM8+D1sJac9Bq8eaa2jiZlHLZIWekKWI1yMWYZvCCEezY9ASPwRhULYDJB2VhKOBUUeg3S5JQ==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -2479,7 +2479,7 @@ packages:
       '@ai-sdk/provider-utils': 1.0.22(zod@3.23.8)
       '@ai-sdk/react': 0.0.70(react@19.0.0-rc-7771d3a7-20240827)(zod@3.23.8)
       '@ai-sdk/solid': 0.0.54(zod@3.23.8)
-      '@ai-sdk/svelte': 0.0.57(svelte@5.3.0)(zod@3.23.8)
+      '@ai-sdk/svelte': 0.0.57(svelte@5.5.2)(zod@3.23.8)
       '@ai-sdk/ui-utils': 0.0.50(zod@3.23.8)
       '@ai-sdk/vue': 0.0.59(vue@3.5.13)(zod@3.23.8)
       '@opentelemetry/api': 1.9.0
@@ -2488,7 +2488,7 @@ packages:
       jsondiffpatch: 0.6.0
       react: 19.0.0-rc-7771d3a7-20240827
       secure-json-parse: 2.7.0
-      svelte: 5.3.0
+      svelte: 5.5.2
       zod: 3.23.8
       zod-to-json-schema: 3.23.5(zod@3.23.8)
     transitivePeerDependencies:
@@ -3070,7 +3070,7 @@ packages:
       - supports-color
     dev: true
 
-  /drizzle-orm@0.34.0(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.4)(react@19.0.0-rc-7771d3a7-20240827):
+  /drizzle-orm@0.34.0(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.5)(react@19.0.0-rc-7771d3a7-20240827):
     resolution: {integrity: sha512-6l9v65YoCr53UOWjyPPNYYQsZYvtzgxMKxljQ5VlJcS3/zM81MXnWeSfqQFlrUHxoTNgyi9BWHysUE8+c0odzA==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
@@ -3161,7 +3161,7 @@ packages:
     dependencies:
       '@types/react': 18.3.3
       '@vercel/postgres': 0.10.0
-      postgres: 3.4.4
+      postgres: 3.4.5
       react: 19.0.0-rc-7771d3a7-20240827
     dev: false
 
@@ -5559,8 +5559,8 @@ packages:
     resolution: {integrity: sha512-i/hbxIE9803Alj/6ytL7UHQxRvZkI9O4Sy+J3HGc4F4oo/2eQAjTSNJ0bfxyse3bH0nuVesCk+3IRLaMtG3H6w==}
     dev: false
 
-  /postgres@3.4.4:
-    resolution: {integrity: sha512-IbyN+9KslkqcXa8AO9fxpk97PA4pzewvpi2B3Dwy9u4zpV32QicaEdgmF3eSQUzdRk7ttDHQejNgAEr4XoeH4A==}
+  /postgres@3.4.5:
+    resolution: {integrity: sha512-cDWgoah1Gez9rN3H4165peY9qfpEo+SA61oQv65O3cRUE1pOEoJWwddwcqKE8XZYjbblOJlYDlLV4h67HrEVDg==}
     engines: {node: '>=12'}
     dev: false
 
@@ -5998,12 +5998,12 @@ packages:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
     dev: false
 
-  /sswr@2.1.0(svelte@5.3.0):
+  /sswr@2.1.0(svelte@5.5.2):
     resolution: {integrity: sha512-Cqc355SYlTAaUt8iDPaC/4DPPXK925PePLMxyBKuWd5kKc5mwsG3nT9+Mq2tyguL5s7b4Jg+IRMpTRsNTAfpSQ==}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
     dependencies:
-      svelte: 5.3.0
+      svelte: 5.5.2
       swrev: 4.0.0
     dev: false
 
@@ -6168,8 +6168,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /svelte@5.3.0:
-    resolution: {integrity: sha512-R9v8vAlW/bO94S7QdBJMYveMyI8gMqNnGOtEVLPveNVws+CEiQHn8BNWrtIIpkB28IXLnmjV2HaRTJz31XJmIw==}
+  /svelte@5.5.2:
+    resolution: {integrity: sha512-ZBVFfZuN5HOIWmpp1Hi0x2PL2CS4cw880quk479mSdQ9avpAEFcKvbYWZuKt/j01YQz5i0tfIUDCY2hMDB+KKg==}
     engines: {node: '>=18'}
     dependencies:
       '@ampproject/remapping': 2.3.0
