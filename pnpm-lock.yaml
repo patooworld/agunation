@@ -146,8 +146,8 @@ devDependencies:
     specifier: ^18
     version: 18.3.0
   drizzle-kit:
-    specifier: ^0.25.0
-    version: 0.25.0
+    specifier: ^0.29.0
+    version: 0.29.0
   eslint:
     specifier: ^8.57.0
     version: 8.57.1
@@ -356,8 +356,8 @@ packages:
       '@babel/helper-validator-identifier': 7.25.9
     dev: false
 
-  /@drizzle-team/brocli@0.10.1:
-    resolution: {integrity: sha512-AHy0vjc+n/4w/8Mif+w86qpppHuF3AyXbcWW+R/W7GNA3F5/p2nuhlkCJaTXSLZheB4l1rtHzOfr9A7NwoR/Zg==}
+  /@drizzle-team/brocli@0.10.2:
+    resolution: {integrity: sha512-z33Il7l5dKjUgGULTqBsQBQwckHh5AbIuxhdsIxDDiZAzBOrZO6q9ogcWC65kU382AfynTfgNumVcNIjuIua6w==}
     dev: true
 
   /@emnapi/runtime@1.3.1:
@@ -381,7 +381,7 @@ packages:
     deprecated: 'Merged into tsx: https://tsx.is'
     dependencies:
       '@esbuild-kit/core-utils': 3.3.2
-      get-tsconfig: 4.7.6
+      get-tsconfig: 4.8.1
     dev: true
 
   /@esbuild/aix-ppc64@0.19.12:
@@ -3137,11 +3137,11 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /drizzle-kit@0.25.0:
-    resolution: {integrity: sha512-Rcf0nYCAKizwjWQCY+d3zytyuTbDb81NcaPor+8NebESlUz1+9W3uGl0+r9FhU4Qal5Zv9j/7neXCSCe7DHzjA==}
+  /drizzle-kit@0.29.0:
+    resolution: {integrity: sha512-WjH0eC7/WKl8hucZPl/H5Df6WbUs1KJdM/vfX6bCjn1lOePrbeeroc18dzAVXdZpvgYx0ywJcFOypoC5MfYAYg==}
     hasBin: true
     dependencies:
-      '@drizzle-team/brocli': 0.10.1
+      '@drizzle-team/brocli': 0.10.2
       '@esbuild-kit/esm-loader': 2.6.5
       esbuild: 0.19.12
       esbuild-register: 3.6.0(esbuild@0.19.12)
