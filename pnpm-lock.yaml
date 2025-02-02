@@ -63,8 +63,8 @@ dependencies:
     specifier: ^16.4.5
     version: 16.4.7
   drizzle-orm:
-    specifier: ^0.34.0
-    version: 0.34.0(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.5)(react@19.0.0-rc-7771d3a7-20240827)
+    specifier: ^0.39.0
+    version: 0.39.0(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.5)(react@19.0.0-rc-7771d3a7-20240827)
   eslint-config-prettier:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.57.1)
@@ -3149,14 +3149,15 @@ packages:
       - supports-color
     dev: true
 
-  /drizzle-orm@0.34.0(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.5)(react@19.0.0-rc-7771d3a7-20240827):
-    resolution: {integrity: sha512-6l9v65YoCr53UOWjyPPNYYQsZYvtzgxMKxljQ5VlJcS3/zM81MXnWeSfqQFlrUHxoTNgyi9BWHysUE8+c0odzA==}
+  /drizzle-orm@0.39.0(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.5)(react@19.0.0-rc-7771d3a7-20240827):
+    resolution: {integrity: sha512-kkZwo3Jvht0fdJD/EWGx0vYcEK0xnGrlNVaY07QYluRZA9N21B9VFbY+54bnb/1xvyzcg97tE65xprSAP/fFGQ==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
-      '@cloudflare/workers-types': '>=3'
-      '@electric-sql/pglite': '>=0.1.1'
+      '@cloudflare/workers-types': '>=4'
+      '@electric-sql/pglite': '>=0.2.0'
       '@libsql/client': '>=0.10.0'
-      '@neondatabase/serverless': '>=0.1'
+      '@libsql/client-wasm': '>=0.10.0'
+      '@neondatabase/serverless': '>=0.10.0'
       '@op-engineering/op-sqlite': '>=2'
       '@opentelemetry/api': ^1.4.1
       '@planetscale/database': '>=1'
@@ -3170,7 +3171,7 @@ packages:
       '@xata.io/client': '*'
       better-sqlite3: '>=7'
       bun-types: '*'
-      expo-sqlite: '>=13.2.0'
+      expo-sqlite: '>=14.0.0'
       knex: '*'
       kysely: '*'
       mysql2: '>=2'
@@ -3188,6 +3189,8 @@ packages:
       '@electric-sql/pglite':
         optional: true
       '@libsql/client':
+        optional: true
+      '@libsql/client-wasm':
         optional: true
       '@neondatabase/serverless':
         optional: true
