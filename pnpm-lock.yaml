@@ -43,7 +43,7 @@ dependencies:
     version: 0.10.0
   ai:
     specifier: 3.4.33
-    version: 3.4.33(react@19.0.0-rc-7771d3a7-20240827)(svelte@5.19.5)(vue@3.5.13)(zod@3.23.8)
+    version: 3.4.33(react@19.0.0-rc-7771d3a7-20240827)(svelte@5.19.6)(vue@3.5.13)(zod@3.23.8)
   bcrypt-ts:
     specifier: ^5.0.2
     version: 5.0.3
@@ -64,7 +64,7 @@ dependencies:
     version: 16.4.7
   drizzle-orm:
     specifier: ^0.39.0
-    version: 0.39.0(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.5)(react@19.0.0-rc-7771d3a7-20240827)
+    version: 0.39.1(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.5)(react@19.0.0-rc-7771d3a7-20240827)
   eslint-config-prettier:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.57.1)
@@ -244,7 +244,7 @@ packages:
       - zod
     dev: false
 
-  /@ai-sdk/svelte@0.0.57(svelte@5.19.5)(zod@3.23.8):
+  /@ai-sdk/svelte@0.0.57(svelte@5.19.6)(zod@3.23.8):
     resolution: {integrity: sha512-SyF9ItIR9ALP9yDNAD+2/5Vl1IT6kchgyDH8xkmhysfJI6WrvJbtO1wdQ0nylvPLcsPoYu+cAlz1krU4lFHcYw==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -255,8 +255,8 @@ packages:
     dependencies:
       '@ai-sdk/provider-utils': 1.0.22(zod@3.23.8)
       '@ai-sdk/ui-utils': 0.0.50(zod@3.23.8)
-      sswr: 2.1.0(svelte@5.19.5)
-      svelte: 5.19.5
+      sswr: 2.1.0(svelte@5.19.6)
+      svelte: 5.19.6
     transitivePeerDependencies:
       - zod
     dev: false
@@ -2442,7 +2442,7 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  /ai@3.4.33(react@19.0.0-rc-7771d3a7-20240827)(svelte@5.19.5)(vue@3.5.13)(zod@3.23.8):
+  /ai@3.4.33(react@19.0.0-rc-7771d3a7-20240827)(svelte@5.19.6)(vue@3.5.13)(zod@3.23.8):
     resolution: {integrity: sha512-plBlrVZKwPoRTmM8+D1sJac9Bq8eaa2jiZlHLZIWekKWI1yMWYZvCCEezY9ASPwRhULYDJB2VhKOBUUeg3S5JQ==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -2467,7 +2467,7 @@ packages:
       '@ai-sdk/provider-utils': 1.0.22(zod@3.23.8)
       '@ai-sdk/react': 0.0.70(react@19.0.0-rc-7771d3a7-20240827)(zod@3.23.8)
       '@ai-sdk/solid': 0.0.54(zod@3.23.8)
-      '@ai-sdk/svelte': 0.0.57(svelte@5.19.5)(zod@3.23.8)
+      '@ai-sdk/svelte': 0.0.57(svelte@5.19.6)(zod@3.23.8)
       '@ai-sdk/ui-utils': 0.0.50(zod@3.23.8)
       '@ai-sdk/vue': 0.0.59(vue@3.5.13)(zod@3.23.8)
       '@opentelemetry/api': 1.9.0
@@ -2476,7 +2476,7 @@ packages:
       jsondiffpatch: 0.6.0
       react: 19.0.0-rc-7771d3a7-20240827
       secure-json-parse: 2.7.0
-      svelte: 5.19.5
+      svelte: 5.19.6
       zod: 3.23.8
       zod-to-json-schema: 3.23.5(zod@3.23.8)
     transitivePeerDependencies:
@@ -3066,8 +3066,8 @@ packages:
       - supports-color
     dev: true
 
-  /drizzle-orm@0.39.0(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.5)(react@19.0.0-rc-7771d3a7-20240827):
-    resolution: {integrity: sha512-kkZwo3Jvht0fdJD/EWGx0vYcEK0xnGrlNVaY07QYluRZA9N21B9VFbY+54bnb/1xvyzcg97tE65xprSAP/fFGQ==}
+  /drizzle-orm@0.39.1(@types/react@18.3.3)(@vercel/postgres@0.10.0)(postgres@3.4.5)(react@19.0.0-rc-7771d3a7-20240827):
+    resolution: {integrity: sha512-2bDHlzTY31IDmrYn8i+ZZrxK8IyBD4mPZ7JmZdVDQj2tpBZXs/gxB/1kK5pSvkjxPUMNOVsTnoGkSltgjuJwcA==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -5920,12 +5920,12 @@ packages:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
     dev: false
 
-  /sswr@2.1.0(svelte@5.19.5):
+  /sswr@2.1.0(svelte@5.19.6):
     resolution: {integrity: sha512-Cqc355SYlTAaUt8iDPaC/4DPPXK925PePLMxyBKuWd5kKc5mwsG3nT9+Mq2tyguL5s7b4Jg+IRMpTRsNTAfpSQ==}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
     dependencies:
-      svelte: 5.19.5
+      svelte: 5.19.6
       swrev: 4.0.0
     dev: false
 
@@ -6090,8 +6090,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /svelte@5.19.5:
-    resolution: {integrity: sha512-vVAntseegJX80sgbY8CxQISSE/VoDSfP7VZHoQaf2+z+2XOPOz/N+k455HJmO9O0g8oxTtuE0TBhC/5LAP4lPg==}
+  /svelte@5.19.6:
+    resolution: {integrity: sha512-6ydekB3qyqUal+UhfMjmVOjRGtxysR8vuiMhi2nwuBtPJWnctVlsGspjVFB05qmR+TXI1emuqtZt81c0XiFleA==}
     engines: {node: '>=18'}
     dependencies:
       '@ampproject/remapping': 2.3.0
